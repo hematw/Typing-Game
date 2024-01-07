@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="header">
+        <h3>Typing Game</h3>
+        <p>1 Minute typing test</p>
+        <div class="content">
+            <p class="time">
+                <span><b>1:00</b>s</span>
+            </p>
+        </div>
+        <div class="progress-bar"></div>
+    </div>
+    <div class="cointainer">
+
+        <main>
+            <div class="mistake-list">
+                <h4>Mistakes</h4>
+                <ul>
+                </ul>
+            </div>
+    
+            <div class="wrapper">
+                <input type="text" class="input-field">
+                <div class="content-box">
+                    <div class="typing-text">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <div class="modal ">
+        <div class="result-details">
+            <div class="result">
+                <p>You passed test with&nbsp;<span class="wpm"><b>0</b></span>&nbsp;WPM</p>
+                <p>And you had <span class="mistake">&nbsp;<b>0</b></span>&nbsp;Mistakes</p>
+            </div>
+            <button onClick="window.location.reload();">Try again</button>
+        </div>
+    </div>
+
+    <script src="js/paragraphs.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
