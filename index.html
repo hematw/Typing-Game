@@ -12,14 +12,28 @@
 
     <div class="header">
         <h3>Typing Game</h3>
-        <p>1 Minute typing test</p>
-        <div class="content">
-            <p class="time">
-                <span><b>1:00</b>s</span>
-            </p>
+        <!-- <p>1 Minute typing test</p> -->
+        <p class="time">
+            <span><b>1:00</b>s</span>
+        </p>
+        <div>
+            Language: 
+            <select id="lang-selector">
+                <option value="en">en</option>
+                <option value="fa">fa</option>
+            </select>
+            Level:
+            <select id="level-selector">
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+                <option value="5">Level 5</option>
+                <option value="6" selected>Level 6</option>
+            </select>
         </div>
-        <div class="progress-bar"></div>
     </div>
+    <div class="progress-bar"></div>
     <div class="cointainer">
 
         <main>
@@ -28,7 +42,7 @@
                 <ul>
                 </ul>
             </div>
-    
+
             <div class="wrapper">
                 <input type="text" class="input-field">
                 <div class="content-box">
@@ -47,11 +61,12 @@
                 <p>You passed test with&nbsp;<span class="wpm"><b>0</b></span>&nbsp;WPM</p>
                 <p>And you had <span class="mistake">&nbsp;<b>0</b></span>&nbsp;Mistakes</p>
             </div>
-            <button onClick="window.location.reload();">Try again</button>
+            <button id="try-again">Try again</button>
         </div>
     </div>
 
     <script src="js/paragraphs.js"></script>
+    <script src="js/persian.js"></script>
     <script src="js/script.js"></script>
 
 </body>

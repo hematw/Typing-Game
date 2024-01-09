@@ -1,4 +1,36 @@
-const paragraphs = [
+const en1 = ['g a b p e z c y d m x f q h i j u l r k s n o v t w'];
+const en2 = [
+    '! @ # 6 $ % $ ^ & 9 * ( ) - _ ',
+    '= + [ { 38 ] } | 10 ; : " , ? / 4 . ',
+    '` ~ ! @  # $ % 65 % $ ^  1& & * ( ) ',
+    '- _ = + + [ { ] ] } | ; : " , ? 03 ',
+    '/ ` ~ ! 4 \' \" | 7 ~ ^ * ( _ + @ '
+];
+const en3 = [
+    'ab cd ef gh ij kl mn op qr st uv wx yz abc def ghi jkl mno pqr stu vwx yza bcd efg hij klm nop qrs tuv wxy zab',
+    'bc de fg hi ij jk lm no op pq qr rs tu uv vw xy yz ab cde def efg fgh ghi hij ijk jkl klm lmn mno nop opq pqr qrs rst stu tuv uvw vwx wxy xyz yza zab',
+    'cd ef fg gh hi ij jk kl lm mn no op pq qr rs st tu uv vw wx xy yz za abc bcd cde def efg fgh ghi hij ijk jkl klm lmn mno nop opq pqr qrs rst stu tuv uvw vwx wxy xyz yza zab',
+    'de ef fg gh hi ij jk kl lm mn no op pq qr rs st tu uv vw wx xy yz za abcd bcde cdef defg efgf fghg ghij hijk ijkl jklm klmn lmno mnop nopq opqr pqrs qrst rstu stuv tuvw uvwx vwxy wxyz yzab zabc',
+    'ef fg gh hi ij jk kl lm mn no op pq qr rs st tu uv vw wx xy yz za abcd bcde cdef defg efgf fghg ghij hijk ijkl jklm klmn lmno mnop nopq opqr pqrs qrst rstu stuv tuvw uvwx vwxy wxyz yzab zabc',
+    'fg gh hi ij jk kl lm mn no op pq qr rs st tu uv vw wx xy yz za abcd bcde cdef defg efgf fghg ghij hijk ijkl jklm klmn lmno mnop nopq opqr pqrs qrst rstu stuv tuvw uvwx vwxy wxyz yzab zabc',
+];
+const en4 = [
+    'apple banana cat dog elephant fox goat horse ice cream jellyfish kangaroo lion monkey',
+    'orange pear queen rabbit snake tiger umbrella violin whale xylophone yak zebra antelope',
+    'buffalo iguana jaguar koala newt octopus parrot quokka rabbit sheep turtle vulture walrus',
+    'x-ray yacht zucchini avocado broccoli cucumber daisy eggplant flamingo giraffe hummingbird',
+    'impala jellybean kiwi lavender mandarin narwhal octopus pineapple quinoa rhinoceros',
+    'sunflower tangerine urchin vanilla watermelon xylophone yak zebra'
+];
+const en5 = [
+    'apple$ banana% cat^ dog* elephant+ fox- goat= horse ice! cream jellyfish# kangaroo& lion',
+    'monkey@ orange pear! queen? rabbit snake# tiger umbrella violin_ whale xylophone yak zebra antelope',
+    'buffalo| iguana~ jaguar/ koala, newt. octopus; parrot: quokka" rabbit{ sheep} turtle[ vulture] walrus',
+    'x-ray; yacht" zucchini( avocado) broccoli` cucumber: daisy= eggplant- flamingo& giraffe+ hummingbird',
+    'impala. jellybean? kiwi# lavender* mandarin$ narwhal! octopus~ pineapple^ quinoa| rhinoceros',
+    'sunflower+ tangerine& urchin= vanilla@ watermelon/ xylophone$ yak% zebra'
+];
+const en6 = [
     "Authors often misinterpret the lettuce as a folklore rabbi, when in actuality it feels more like an uncursed bacon. Pursued distances show us how mother-in-laws can be charleses. Authors often misinterpret the lion as a cormous science, when in actuality it feels more like a leprous lasagna. Recent controversy aside, their band was, in this moment, a racemed suit. The clutch of a joke becomes a togaed chair. The first pickled chess is.",
     "In modern times the first scrawny kitten is, in its own way, an input. An ostrich is the beginner of a roast. An appressed exhaust is a gun of the mind. A recorder is a grade from the right perspective. A hygienic is the cowbell of a skin. Few can name a dun brazil that isn't a highbrow playroom. The unwished beast comes from a thorny oxygen. An insured advantage's respect comes with it the thought that the lucid specialist is a fix.",
     "In ancient times the legs could be said to resemble stroppy vegetables. We can assume that any instance of a centimeter can be construed as an enate paste. One cannot separate pairs from astute managers. Those americas are nothing more than fish. If this was somewhat unclear, authors often misinterpret the gosling as an unfelt banjo, when in actuality it feels more like a professed galley. A bow of the squirrel is assumed.",
