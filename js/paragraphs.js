@@ -1,10 +1,10 @@
 const en1 = ['g a b p e z c y d m x f q h i j u l r k s n o v t w'];
 const en2 = [
-    '! @ # 6 $ % $ ^ & 9 * ( ) - _ ',
-    '= + [ { 38 ] } | 10 ; : " , ? / 4 . ',
-    '` ~ ! @  # $ % 65 % $ ^  1& & * ( ) ',
-    '- _ = + + [ { ] ] } | ; : " , ? 03 ',
-    '/ ` ~ ! 4 \' \" | 7 ~ ^ * ( _ + @ '
+    '! @ # 6 $ % $ ^ & 9 * ( ) - _',
+    '= + [ { 38 ] } | 10 ; : " , ? / 4 .',
+    '` ~ ! @  # $ % 65 % $ ^  1& & * ( )',
+    '- _ = + + [ { ] ] } | ; : " , ? 03',
+    '/ ` ~ ! 4 \' \" | 7 ~ ^ * ( _ + @'
 ];
 const en3 = [
     'ab cd ef gh ij kl mn op qr st uv wx yz abc def ghi jkl mno pqr stu vwx yza bcd efg hij klm nop qrs tuv wxy zab',

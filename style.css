@@ -106,7 +106,6 @@ body {
 
 .typing-text p {
     font-size: 26px;
-    text-align: justify;
     letter-spacing: 1px;
 }
 
@@ -228,7 +227,6 @@ span b {
 }
 
 #dropdown {
-    /* appearance: none; */
     width: 80px;
     height: 30px;
     border: none;
